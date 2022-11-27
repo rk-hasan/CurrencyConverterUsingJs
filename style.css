@@ -1,0 +1,57 @@
+:root{
+    --blue : #1e90ff;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,p{
+    color: aliceblue;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body input[type='number']{
+    background: transparent;
+    border: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 100px;
+}
+
+.sowap-btn-container{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rate{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.btn{
+    background-color: #0e51a9;
+    padding: 5px 12px;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+select{
+    background-color: aliceblue;
+    height: 2rem;
+    width: 5rem;
+}
